@@ -19,22 +19,19 @@
     <p>QUIZ: <span>EL juego de las preguntas</span></p>
   </header>
   <nav>
-    <div class="contenedorNAV">
+  	<div class="contenedorNAV">
       <div>Inicio</div>
       <div>Preguntas</div>
       <div id="Actual">Jugar</div>
     </div>
   </nav>
   <section>
-    <p class="preguntas">Pregunta: <b><%=pregunta%></b></p>
-    <form action="/quizes/answer" method="get">
-    <input type="text" value="Responda aquí" id="respuesta"><input id="botón" type="submit" value="Enviar">
-    </form>
-   
+    <p class="respuesta"><b>Incorrecto</b></p>
+    <p>Volver a intentar</p>
+       
 </section>
   <footer>
     <p><a href="https://es.wikipedia.org/wiki/Quiz" target="new">¿Qué es un Quiz?</a></p>
   </footer>
 </body>
 </html>
-
