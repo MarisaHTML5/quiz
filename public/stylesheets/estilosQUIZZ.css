@@ -113,6 +113,7 @@ a{
 .respuesta{
 	font-size: 40px;
 	margin-top:80px;
+	margin-bottom:20px;
 }
 .respuesta + p{
 	color:rgba(0,102,102,1);
